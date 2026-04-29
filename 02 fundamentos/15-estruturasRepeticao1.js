@@ -1,0 +1,17 @@
+// Estruturas de Repetição 1
+// for
+
+// Inicialização; Condição de parada; Incremento/Decremento
+for (let i = 0; i < 100; i++) {
+  console.log("Executando o for: " + i);
+}
+
+const listaDeEmails = [
+  "email1@example.com",
+  "email2@example.com",
+  "email3@example.com",
+];
+
+for (let i = 0; i < listaDeEmails.length; i++) {
+  console.log("Enviando email para: " + listaDeEmails[i]);
+}
